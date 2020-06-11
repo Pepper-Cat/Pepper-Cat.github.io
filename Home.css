@@ -1,0 +1,106 @@
+body{font-family: "AppleSDGothicNeoM00",sans-serif; }
+.nav1{
+  width: 256px; height: 56px; margin: 24px 46px;
+  padding: 8px; position: fixed; top:0px; right: 0px;}
+#searchBar{width: 176px; height: 40px; padding: 6px 8px; margin-right: 40px;}
+#searchBar button{border: 0px; background-color: white;}
+#searchtxt{
+  width: 128px; height: 26px;
+  border: 0px; font-size: 18px; font-family: "AppleSDGothicNeoM00",sans-serif;
+  outline: none; color:#CACDD8;
+  padding: 0px 2px 5px 3px;  }
+
+#searchIcon{width: 25px; height: 25px; }
+
+#menu{position: absolute; bottom: 24px; left: 176px; }
+#menu button{border: 0px; background-color: white;}
+#menuIcon{width: 36px; height: 25px; }
+#menuIcon2{width: 36px; height: 25px;  margin: 39px 30px; float: right;}
+#togglemenu2{
+ width: 36px; height: 25px; float: right;
+  border: 0px; background-color: #CACDD8; }
+#menuArea{
+  position: absolute; top: -23px; right: -46px;
+  width: 272px; height: 1080px;
+  background-color: #CACDD8; display: none;
+}
+#menuArea ul{list-style-type: none; margin: 200px 30px 0px 30px;}
+#menuArea ul>a:link{text-decoration: none;}
+#menuArea ul>a:hover{color: #F1404B;}
+#menuArea li{
+  clear: both;
+  font-size: 30px;
+  font-family: "AppleSDGothicNeoM00",sans-serif; color: white;
+  text-align: right; line-height: 4em;}
+
+.titleText{
+  width: 560px; height: 283px;
+  padding: 32px 40px; margin-top: 104px; margin-left: 96px;
+  margin-right: 148px; margin-bottom: 0px;}
+#textImg{width: 481px; height: 220px; margin: 0px;}
+
+.titleImg{
+  width: 342px; height: 625px;
+ position: absolute;
+ left: 900px;  top: 143px; right: 0px;
+ margin-left: 200px; margin-top: 100px; margin-right: 0px; margin-bottom: 0px;
+}
+#mainImg{width: 342px; height: 625px;}
+
+.testButton button{border: 0px; background-color: white;}
+
+.testButton img{width: 106px; height: 64px;}
+.testButton{
+  width: 106px; height: 64px; position: absolute;
+  left: 295.9px; top: 582px;}
+
+#aniImg{width: 121px; height: 283px;}
+.scrollImg {
+  width: 121px; height: 283px;
+  margin-left: 28px; margin-top: 253px;
+  position: relative; animation-name: motion; animation-duration: 1s;
+  animation-iteration-count: infinite; animation-direction: alternate;}
+
+@keyframes motion {
+   0% {top: 0px; bottom: 0px;}
+   100% {top: 160px; bottom: 200px;}}
+
+.secondPage{
+  margin: 0px 250px; float: left;
+}
+#mannerTitle{width: 475px; height: 57px; margin: 300px 659px 136px 232px;}
+.campaignImg{
+  width: 846px; height: 352px;
+  display: inline-block; }
+#campaign1{width: 846px; height: 352px; margin: 0px 0px 0px 259px;}
+#left{
+  width:31.1px; height: 48.4px; margin:0px;
+position: relative; bottom: 30px; right: 0px;}
+ #leftbtn{
+   background-color: white; border:0px;
+   margin:391.6px 84px 328px 143.9px;
+  position: relative; bottom: 600px; right: 40px;
+ }
+#right{
+    width:31.1px; height: 48.4px; margin:0px;
+  position: relative; bottom: 30px; left: 0px;}
+  #rightbtn{
+    background-color: white; border:0px;
+       margin:391.6px 87.9px 328px 143.9px;
+    position: relative; bottom: 600px; left: 800px;}
+
+.thirdPage{clear: both; margin:200px auto;}
+.thirdPage p{text-align:center; font-size: 36px; color:#4C5160;}
+.thirdPage a:link{text-decoration: none;}
+#home{width: 78px; height: 98px; margin:11px 56px;}
+#product{margin: 200px 20px;}
+#product1{
+  width: 168px; height: 308px;
+  margin-left: 550px; margin-right: 185px; }
+#product2{
+  width: 80px; height: 308px;
+  margin-left: 300px; margin-right: 500px;}
+
+#productTxt p{font-size: 30px; color: #4C5160;}  #productTxt a:hover{color: #F1404B;}
+#p1{position: relative; margin: 300px 350px; right: 300px; bottom:150px;}
+#p2{position: relative; left: 330px; top: -480px;}
